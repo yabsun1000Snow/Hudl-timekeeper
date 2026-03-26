@@ -6,8 +6,7 @@ import pytz
 # ==========================================
 # ★ここに先ほど取得したGoogle Apps ScriptのURLを貼り付けます！
 # ==========================================
-GAS_URL = "https://script.google.com/macros/s/AKfycbyOaouK5IuHAQR3-2fp9YZLIuyYTDXWIZsbYGdqEkkT0dMCczCW7qSIKBYjktLfdho/exec"
-
+GAS_URL = st.secrets["GAS_URL"]
 # 練習メニューのリスト（必要に応じてチームのメニューに書き換えてください）
 PRACTICE_MENUS = [
     "基礎練", "Kick", "Punt", "FG", 
