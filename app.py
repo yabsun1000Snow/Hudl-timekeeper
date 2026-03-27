@@ -29,7 +29,7 @@ for i, menu in enumerate(PRACTICE_MENUS):
             # クラウド上でも必ず日本時間になるように設定
             tokyo_tz = pytz.timezone('Asia/Tokyo')
             now = datetime.now(tokyo_tz)
-            time_str = now.strftime("%H:%M:%S")
+            time_str = now.strftime("%Y/%m/%d %H:%M:%S")
             
             # スプレッドシート（GAS）にデータを送信
             try:
